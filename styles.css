@@ -10,6 +10,59 @@
 
 }
 
+.menu .newsbtn{
+    position: absolute;
+    border: none;
+    width: 161px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: -8px;
+    top: -22px;
+    z-index: -1;
+
+}
+
+.menu .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.menu .dropdown-content{
+    right: 0px;
+    top: 74px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 161px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu .dropdown-content a:hover{
+    background-color: #5E9AF3;
+}
+
+.menu .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.menu .dropdown:hover .newsbtn{
+    background-color: #5E9AF3;
+}
+
+
+.menu .dropdown .dropdown-content .newslogodrop{
+    height: 45px;
+    width: auto;
+}
+
 .menu .religioustxt{
     /* Religious */
 
@@ -111,16 +164,6 @@
     text-align: center;
 
     color: #F5F5F5;
-}
-
-.menu .newsbox{
-    position: absolute;
-    width: 161px;
-    height: 74px;
-    background-color: #FF6D6D;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
 }
 
 .menu .religlocbox{
