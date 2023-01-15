@@ -1,29 +1,13 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 .menu a{
     /*background-color: #FF6D6D;*/
     color: white;
     text-decoration: none;
 
-
-}
-
-.menu .newstxt{
-    position: absolute;
-    width: 70px;
-    height: 31px;
-    left: 46px;
-    top: 22px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25.4479px;
-    line-height: 31px;
-    /* identical to box height */
-
-    text-align: center;
-    
-
-    color: #FFFFFF;
 }
 
 .menu .religioustxt{
