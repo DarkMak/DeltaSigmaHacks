@@ -1,0 +1,180 @@
+.menu a{
+    /*background-color: #FF6D6D;*/
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+.menu .newstxt{
+    position: absolute;
+    width: 70px;
+    height: 31px;
+    left: 46px;
+    top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.4479px;
+    line-height: 31px;
+    /* identical to box height */
+
+    text-align: center;
+    
+
+    color: #FFFFFF;
+}
+
+.menu .religioustxt{
+    /* Religious */
+
+
+    position: absolute;
+    width: 99px;
+    height: 27px;
+    left: 191px;
+    top: 11px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+    
+}
+
+.menu .locationtxt{
+    /* Locations */
+
+
+    position: absolute;
+    width: 106px;
+    height: 27px;
+    left: 191px;
+    top: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .weathertxt{
+    position: absolute;
+    width: 93px;
+    height: 27px;
+    left: 384px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .supgrouptxt{
+    position: absolute;
+    width: 183.47px;
+    height: 27px;
+    left: 593.27px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .ethfoodplacetxt{
+    position: absolute;
+    width: 237.03px;
+    height: 27px;
+    left: 806.49px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .newsbox{
+    position: absolute;
+    width: 161px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.menu .religlocbox{
+    position: absolute;
+    width: 199px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 162px;
+    top: 0px;
+    z-index: -1;
+}
+
+.menu .weatherbox{
+    position: absolute;
+    width: 210px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 362px;
+    top: 0px;
+    z-index: -1;
+}
+
+.menu .supgroupbox{
+    position: absolute;
+    width: 224px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 573px;
+    top: 0px;
+    z-index: -1;    
+}
+
+.menu .ethfoodplacebox{
+    position: absolute;
+    width: 247px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 798px;
+    top: 0px;
+    z-index: -1;      
+}
