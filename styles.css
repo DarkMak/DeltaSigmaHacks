@@ -1,0 +1,353 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.menu a{
+    /*background-color: #FF6D6D;*/
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu .newsbtn{
+    position: absolute;
+    border: none;
+    width: 161px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: -8px;
+    top: -22px;
+    z-index: -1;
+
+}
+
+.menu .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.menu .dropdown-content{
+    right: 0px;
+    top: 74px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 161px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu .dropdown-content a:hover{
+    background-color: #5E9AF3;
+}
+
+.menu .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.menu .dropdown:hover .newsbtn{
+    background-color: #5E9AF3;
+}
+
+.menu .religloc:hover .religlocbox{    
+    background-color: #5E9AF3;
+    
+}
+
+.menu .weather:hover .weatherbox{
+    background-color: #5E9AF3;
+}
+
+.menu .supgroup:hover .supgroupbox{
+    background-color: #5E9AF3;
+}
+
+.menu .ethfoodplace:hover .ethfoodplacebox{
+    background-color: #5E9AF3;
+}
+
+.menu .dropdown .dropdown-content .newslogodrop{
+    height: 45px;
+    width: auto;
+}
+
+.menu .religioustxt{
+    /* Religious */
+
+
+    position: absolute;
+    width: 99px;
+    height: 27px;
+    left: 191px;
+    top: 11px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+    
+}
+
+.menu .locationtxt{
+    /* Locations */
+
+
+    position: absolute;
+    width: 106px;
+    height: 27px;
+    left: 191px;
+    top: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .weathertxt{
+    position: absolute;
+    width: 93px;
+    height: 27px;
+    left: 384px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .supgrouptxt{
+    position: absolute;
+    width: 183.47px;
+    height: 27px;
+    left: 593.27px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .ethfoodplacetxt{
+    position: absolute;
+    width: 237.03px;
+    height: 27px;
+    left: 806.49px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.menu .religlocbox{
+    position: absolute;
+    width: 199px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 162px;
+    top: 0px;
+    z-index: -1;
+}
+
+.menu .weatherbox{
+    position: absolute;
+    width: 210px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 362px;
+    top: 0px;
+    z-index: -1;
+}
+
+.menu .supgroupbox{
+    position: absolute;
+    width: 224px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 573px;
+    top: 0px;
+    z-index: -1;    
+}
+
+.menu .ethfoodplacebox{
+    position: absolute;
+    width: 247px;
+    height: 74px;
+    background-color: #FF6D6D;
+    left: 798px;
+    top: 0px;
+    z-index: -1;      
+}
+.menu .newslogo{
+    position: absolute;
+    width: 57px;
+    height: auto;
+    top: 13px;
+    left: 52px;
+
+}
+
+.menu .religloclogo1{
+    position: absolute;
+    width: 23px;
+    height: 20px;
+    top: 16px;
+    left: 318px;
+}
+
+.menu .religloclogo2{
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    top: 41px;
+    left: 320px;
+}
+
+.menu .weatherlogo{
+    position: absolute;
+    width: 61px;
+    height: 52px;
+    left: 489px;
+    top: 11px;
+}
+
+.name{
+    position: absolute;
+    width: 272px;
+    height: 40px;
+    left: 118px;
+    top: 92px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #000000;
+
+    z-index: -2;
+}
+
+.indeximg{
+    /* image 1 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 521px;
+    height: 581px;
+    left: 1px;
+    top: 164px;
+
+    z-index: -2;
+}
+
+.tophead{
+    /* WELCOME TO */
+
+    position: absolute;
+    width: 342px;
+    height: 62px;
+    left: 636.65px;
+    top: 252.3px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.8958px;
+    line-height: 62px;
+    /* identical to box height */
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.62);
+
+    text-shadow: 0px 2.90833px 2.90833px rgba(0, 0, 0, 0.25);
+
+}
+
+.bottomhead{
+    /* CANADA */
+
+    position: absolute;
+    width: 263.93px;
+    height: 61.08px;
+    left: 676.19px;
+    top: 323.55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58.1667px;
+    line-height: 70px;
+    text-align: center;
+
+    color: #FC0404;
+
+
+}
+
+.description{
+    /* Feeling homesick? You’re in the right place to access news, weather, sports, and more from the middle east with just one click of a button. */
+
+    position: absolute;
+    width: 326px;
+    height: 54px;
+    left: 653px;
+    top: 399px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
