@@ -57,6 +57,22 @@
     background-color: #5E9AF3;
 }
 
+.menu .religloc:hover .religlocbox{    
+    background-color: #5E9AF3;
+    
+}
+
+.menu .weather:hover .weatherbox{
+    background-color: #5E9AF3;
+}
+
+.menu .supgroup:hover .supgroupbox{
+    background-color: #5E9AF3;
+}
+
+.menu .ethfoodplace:hover .ethfoodplacebox{
+    background-color: #5E9AF3;
+}
 
 .menu .dropdown .dropdown-content .newslogodrop{
     height: 45px;
