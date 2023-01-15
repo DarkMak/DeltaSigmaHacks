@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Maps</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+    
+  
+
+    <iframe 
+  width="1440"
+  height="700"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  id="firstiframe"
+ 
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAOQv8Mi8LOHH3uj7_mhW6aOl5AtwacyFM
+    &q=churches near me"
+    hidden="hidden"></iframe>
+
+   
+<iframe
+    id="secondiframe"
+    width="1440"
+  height="700"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAOQv8Mi8LOHH3uj7_mhW6aOl5AtwacyFM
+    &q=mosques"
+    ></iframe>
+    <br /><br />
+    <button onclick="toggle(this);">Show Churches</button>
+<script>
+  let toggle = button => {
+    let element = document.getElementById("firstiframe");
+    let hidden = element.getAttribute("hidden");
+    let element2 = document.getElementById("secondiframe");
+    
+    if (hidden) {
+       element.removeAttribute("hidden");
+       element2.setAttribute("hidden", "hidden");
+       button.innerText = "Show mosque";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       element2.removeAttribute("hidden");
+       button.innerText = "Show Church";
+    }
+  }
+</script>
+    
+    </head>
+    
+
+</body>
+</html>

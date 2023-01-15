@@ -16,6 +16,7 @@ let weather = {
             const { temp, humidity } = data.main;
             const { speed } = data.wind;
             console.log(name, icon, description, temp, humidity, speed)
+            
             document.querySelector(".description").innerText = description;
             document.querySelector(".temp").innerText = temp + "°C"
             document.querySelector(".humidity").innerText = "Humidity " + humidity + "%";
